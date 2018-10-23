@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         if (null == savedInstanceState) {
             GuidedStepFragment.addAsRoot(this, new DetailsEnteryFormFragment(), android.R.id.content);
-        }
+        } 
     }
 
 
