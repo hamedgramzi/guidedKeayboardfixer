@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GuidedStepsTV</string>
+    <string name="two_opts_title">Profile</string>
+    <string name="two_opts_desc">Please update your details</string>
+    <string name="two_opts_breadcrumb">Settings</string>
+
+    <string name="two_opts_name">Name</string>
+    <string name="two_opts_dob">DOB: </string>
+    <string name="two_opts_gender">Gender</string>
+    <string name="two_opts_gender_male">Male</string>
+    <string name="two_opts_gender_female">Female</string>
+
+    <string name="two_opts_submit">Continue</string>
+
+    <string name="two_opts_weight_value">%d kg</string>
+
+</resources>
