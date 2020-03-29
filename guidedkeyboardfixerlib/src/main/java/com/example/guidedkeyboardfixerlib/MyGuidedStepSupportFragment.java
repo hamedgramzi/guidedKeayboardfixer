@@ -1,7 +1,7 @@
 package com.example.guidedkeyboardfixerlib;
 
-import android.support.v17.leanback.app.GuidedStepSupportFragment;
-import android.support.v17.leanback.widget.GuidedActionsStylist;
+import androidx.leanback.app.GuidedStepSupportFragment;
+import androidx.leanback.widget.GuidedActionsStylist;
 
 public class MyGuidedStepSupportFragment extends GuidedStepSupportFragment {
 

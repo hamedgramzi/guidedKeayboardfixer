@@ -4,25 +4,20 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v17.leanback.app.GuidedStepFragment;
-import android.support.v17.leanback.app.GuidedStepSupportFragment;
-import android.support.v17.leanback.widget.GuidanceStylist;
-import android.support.v17.leanback.widget.GuidedAction;
-import android.support.v17.leanback.widget.GuidedActionAdapter;
-import android.support.v17.leanback.widget.GuidedActionsStylist;
-import android.support.v17.leanback.widget.GuidedDatePickerAction;
+import androidx.annotation.NonNull;
+import androidx.leanback.app.GuidedStepFragment;
+import androidx.leanback.app.GuidedStepSupportFragment;
+import androidx.leanback.widget.GuidanceStylist;
+import androidx.leanback.widget.GuidedAction;
+import androidx.leanback.widget.GuidedActionAdapter;
+import androidx.leanback.widget.GuidedActionsStylist;
+import androidx.leanback.widget.GuidedDatePickerAction;
 import android.text.InputType;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.guidedkeyboardfixerlib.MyGuidedStepFragment;
 import com.example.guidedkeyboardfixerlib.MyGuidedStepSupportFragment;
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -30,7 +25,7 @@ import java.util.List;
 /**
  * Created by kurt on 2016/02/29.
  */
-public class DetailsEnteryFormFragment extends MyGuidedStepFragment {
+public class DetailsEnteryFormFragment extends MyGuidedStepSupportFragment {
 
     private static final String TAG = "DetailsEntFormFragment";
 
