@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GuidedStepsTV-master.iml" filepath="$PROJECT_DIR$/GuidedStepsTV-master.iml" group="GuidedStepsTV-master" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="GuidedStepsTV-master/app" />
-      <module fileurl="file://$PROJECT_DIR$/guidedkeyboardfixerlib/guidedkeyboardfixerlib.iml" filepath="$PROJECT_DIR$/guidedkeyboardfixerlib/guidedkeyboardfixerlib.iml" group="GuidedStepsTV-master/guidedkeyboardfixerlib" />
+      <module fileurl="file://$PROJECT_DIR$/GuidedStepsTV-master.iml" filepath="$PROJECT_DIR$/GuidedStepsTV-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GuidedStepsTV-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GuidedStepsTV-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guidedkeyboardfixerlib/GuidedStepsTV-master.guidedkeyboardfixerlib.iml" filepath="$PROJECT_DIR$/.idea/modules/guidedkeyboardfixerlib/GuidedStepsTV-master.guidedkeyboardfixerlib.iml" />
     </modules>
   </component>
 </project>

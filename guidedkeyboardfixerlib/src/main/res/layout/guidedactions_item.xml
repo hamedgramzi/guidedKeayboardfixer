@@ -18,11 +18,16 @@
         android:id="@+id/guidedactions_item_content"
         style="?attr/guidedActionItemContentStyle" >
 
+
         <com.example.guidedkeyboardfixerlib.MyEditText
             android:id="@+id/guidedactions_item_title"
+            android:focusableInTouchMode="true"
+
             style="?attr/guidedActionItemTitleStyle" />
 
         <com.example.guidedkeyboardfixerlib.MyEditText
+            android:focusableInTouchMode="true"
+
             android:id="@+id/guidedactions_item_description"
             style="?attr/guidedActionItemDescriptionStyle" />
 
