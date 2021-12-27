@@ -8,7 +8,6 @@ import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 
-import androidx.appcompat.widget.AppCompatEditText;
 import androidx.leanback.widget.GuidedActionEditText;
 import androidx.leanback.widget.ImeKeyMonitor;
 import androidx.leanback.widget.VerticalGridView;
