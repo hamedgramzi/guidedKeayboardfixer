@@ -1,5 +1,6 @@
 package com.example.guidedkeyboardfixerlib;
 
+import android.annotation.SuppressLint;
 import android.app.Instrumentation;
 import android.content.Context;
 import android.graphics.Canvas;
@@ -24,7 +25,8 @@ import android.widget.TextView;
 
 import java.util.logging.Handler;
 
-public class MyEditText extends AppCompatEditText implements ImeKeyMonitor {
+@SuppressLint("AppCompatCustomView")
+public class MyEditText extends EditText implements ImeKeyMonitor {
     static final class NoPaddingDrawable extends Drawable {
         @Override
         public boolean getPadding(Rect padding) {
